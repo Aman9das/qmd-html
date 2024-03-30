@@ -1,0 +1,22 @@
+/*-- scss:defaults --*/
+
+$font-family-sans-serif: "Inter", 'Cantarell', "Clear Sans", sans-serif;
+$font-family-monospace: "Intel One Mono", 'Source Code Pro', monospace;
+
+:root {
+  font-feature-settings:
+    "calt",
+    "tnum",
+    "case",
+    "ccmp",
+    "kern" 1,
+    "liga" 1,
+    "ss04" 1 !important;
+}
+
+/*-- scss:rules --*/
+
+@import url("https://rsms.me/inter/inter.css");
+// @import url("https://raw.githubusercontent.com/fontsource/font-files/main/fonts/other/clear-sans/latin.css");
+@import url("https://cdn.jsdelivr.net/gh/fonts-archive/IntelOneMono/IntelOneMono.css");
+// @import url('https://fonts.googleapis.com/css2?family=Cantarell&family=Source+Code+Pro&display=swap');
