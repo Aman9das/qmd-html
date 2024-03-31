@@ -1,6 +1,6 @@
 title: Aman9das HTML Theme
 author: Aman Das
-version: 0.0.9
+version: 1.0.0
 quarto-required: ">=1.5.0"
 contributes:
   formats:
