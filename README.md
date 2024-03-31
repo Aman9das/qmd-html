@@ -1,8 +1,6 @@
-# <%= title %> Format
+# Quarto Aman9das HTML Theme
 
 ## Installing
-
-*TODO*: Replace the `<github-organization>` with your GitHub organization.
 
 ```bash
 quarto use template aman9das/qmd-html
@@ -12,12 +10,13 @@ This will install the extension and create an example `qmd` file that you can us
 
 ## Using
 
-*TODO*: Describe how to use your format.
+Drop-in replacement for html format.
+Just use `aman9das-html` instead.
 
-## Format Options
-
-*TODO*: If your format has options that can be set via document metadata, describe them.
+```yaml
+format: aman9das-html
+```
 
 ## Example
 
-Here is the source code for a minimal sample document: [example.qmd](example.qmd).
+Here is the source code for a minimal sample document: [template.qmd](template.qmd).

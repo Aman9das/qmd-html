@@ -1,15 +1,26 @@
 ---
-title: Untitled
-author: Unknown
+title: Quarto Aman9das HTML Theme
+author: Aman Das
 format: aman9das-html
-date: last-modified
+date: today
 ---
 
-## Introduction
+## Quarto
 
-*TODO* Create.
+Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>.
 
-## Information
+## Running Code
 
-You can learn more about controlling the appearance of HTML output here:
-<https://quarto.org/docs/output-formats/html-basics.html>
+When you **Render**, a document will be generated that includes *both* content and the output of embedded code. You can embed code like this:
+
+```{r}
+1 + 1
+```
+
+The `echo: false` option disables the printing of code (only output is displayed).
+
+| Default | Left | Right | Center |
+| ------- | :--- | ----: | :----: |
+| 12      | 12   |    12 |   12   |
+| 123     | 123  |   123 |  123   |
+| 1       | 1    |     1 |   1    |
