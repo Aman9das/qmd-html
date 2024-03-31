@@ -3,6 +3,7 @@ title: Quarto Aman9das HTML Theme
 author: Aman Das
 format: aman9das-html
 date: today
+embed-resources: true
 ---
 
 ## Quarto

@@ -20,3 +20,7 @@ format: aman9das-html
 ## Example
 
 Here is the source code for a minimal sample document: [template.qmd](template.qmd).
+
+|                 Dark                  |                  Light                  |
+| :-----------------------------------: | :-------------------------------------: |
+| ![Dark mode render](preview-dark.png) | ![Light mode render](preview-light.png) |
